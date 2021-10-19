@@ -6,12 +6,14 @@
         <title>Unit 8 Flex</title>
         <meta charset="UTF-8">
         <style>
-            .firstimage {
+            .firstimage .secondimage{
                 float: left;
             }
+            /* puts the image on the left and wraps all the content after it around it */
             .clearfloat {
                 clear: both;
             }
+            /* stops the wrapping around the element that was floated*/
         </style>
     </head>
     <body>
@@ -29,7 +31,7 @@
 
         <div class="clearfloat"></div>
         
-        <img src="https://cdn.cnn.com/cnnnext/dam/assets/210720122433-colonial-pipeline-fuel-tanks-medium-plus-169.jpg" alt="oil tanks">
+        <img class="secondimage" src = "https://cdn.cnn.com/cnnnext/dam/assets/210720122433-colonial-pipeline-fuel-tanks-medium-plus-169.jpg" alt="oil tanks">
 
         <p>Sinclair is responsible for 185 television stations in 86 markets, according to its website. It also runs regional sports networks.</p>
         <p>The company's stations are still on the air, and are continuing to show national and syndicated programming like talk shows and sitcoms.</p>
