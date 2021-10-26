@@ -5,8 +5,10 @@
         <title>Unit 13 - Duke Layout</title>
         <style>
             body {font-family: "Open Sans",Roboto,"Helvetica Neue",Helvetica,sans-serif;}
-            .firstrow {display: flex;}/*for our images rows to put 3 images in columns */
-            .secondrow {display: flex;} 
+            .firstrow {display: flex;
+                justify-content: space-around;}/*for our images rows to put 3 images in columns */
+            .secondrow {display: flex; 
+                justify-content: space-around;}
             .firstrow div {flex: 1;} /*take up 1 piece of a 3 piece pue in spacing*/
             .secondrow div {flex 1;}
             .outerflexbox {display: flex;}
@@ -15,7 +17,10 @@
                 padding: 15px;
                 background-color: #e0e0e0; 
             }
-            .column2{flex-basis: 60%;}
+            .column2{flex-basis: 60%;
+                background-color: #efefef;
+                padding: 15px;
+            }
         </style>
     </head>
     <body>
