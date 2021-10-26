@@ -6,10 +6,14 @@
         <title>Unit 8 Flex</title>
         <meta charset="UTF-8">
         <style>
-            .firstimage .secondimage{
+            .firstimage {
                 float: left;
+                margin-right: 15px;
             }
             /* puts the image on the left and wraps all the content after it around it */
+            .secondimage {
+                float: right;
+            }
             .clearfloat {
                 clear: both;
             }
@@ -29,7 +33,7 @@
         <p>Sinclair CEO Chris Ripley repeated the statement at Monday afternoon's town hall and fielded questions from staffers, but he had little concrete information to share, according to the reporters who spoke with CNN.</p>
         <p>He did specify that employees will still receive their paychecks despite the disruption, one of the reporters said.</p>
 
-        <div class="clearfloat"></div>
+        <div class="clearfloat"></div> <!--this stops the float (wrapping) around the firstimage-->
         
         <img class="secondimage" src = "https://cdn.cnn.com/cnnnext/dam/assets/210720122433-colonial-pipeline-fuel-tanks-medium-plus-169.jpg" alt="oil tanks">
 
